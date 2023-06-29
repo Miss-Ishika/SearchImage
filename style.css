@@ -1,0 +1,111 @@
+body{
+    /* background: url(images/colorful-2468874.jpg) fixed center; */
+    background-image: url(images/stones-167089.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-self: center
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fasthand&family=Pacifico&display=swap');
+
+#m-container{
+  width: 85%;
+  height: 100%;
+  border-radius: 10px;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  text-align: center;
+  
+}
+
+
+#header{
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Pacifico', cursive;
+  font-weight: 800;
+  text-shadow: 1px 1px 3px wheat;
+  margin: 1em;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7em;
+
+}
+#search-input{
+  margin-top: 2em;
+  width: 40%;
+  max-width: 400px;
+  padding: 10px 20px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: none;
+  background: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 1em;
+  font-weight: 400;
+  outline: none;
+}
+#search-button{
+  margin-top: 2.4em;
+  width: 10%;
+  padding: 5.3px 4px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: none;
+  background: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#search-button:hover{
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+#boxx{
+  margin-bottom: 60px;
+  width: 30%;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 6px black;
+  overflow: hidden;
+}
+#boxx img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#boxx:hover{
+  box-shadow: 0 0 12px black;
+}
+#show{
+  margin: 4em;
+  padding: .5em;
+  font-size: 1.5em;
+  border: 6px solid black;
+  background: transparent;
+  font-weight: 800;
+  border-radius: 7px
+}
+#show:hover{
+  background-color: black;
+  color: rgb(228, 149, 92);
+  text-shadow: 0 0 10px rgb(247, 101, 3);
+}
