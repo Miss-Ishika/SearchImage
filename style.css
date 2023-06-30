@@ -13,7 +13,7 @@ body{
 
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fasthand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fasthand&family=Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 #m-container{
   width: 85%;
   height: 100%;
@@ -21,7 +21,8 @@ body{
   align-items: center;
   backdrop-filter: blur(5px);
   text-align: center;
-  
+  border: 0.5px solid rgb(160, 160, 160);
+  /* box-shadow: 0 0 3px rgb(104, 102, 102); */
 }
 
 
@@ -57,6 +58,9 @@ form {
   font-weight: 400;
   outline: none;
 }
+#search-input:focus{
+  background: none;
+}
 #search-button{
   margin-top: 2.4em;
   width: 10%;
@@ -76,36 +80,52 @@ form {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-   max-width: 1200px;
-   margin: 0 auto;
+  margin: 0 2em 0 2em;
+   /* max-width: 1200px;
+   margin: 0 auto; */
 }
-#boxx{
+.boxx{
   margin-bottom: 60px;
   width: 30%;
   height: 100%;
   border-radius: 5px;
-  box-shadow: 0 0 6px black;
+  box-shadow: 0 0 6px rgb(82, 80, 80);
   overflow: hidden;
 }
-#boxx img{
+.boxx img{
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-#boxx:hover{
+.boxx:hover{
   box-shadow: 0 0 12px black;
 }
+.boxx a{
+  color: black;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+}
+.boxx a:hover{
+  color: rgb(253, 13, 13);
+  text-shadow: 0 0 5px rgb(101, 13, 13);
+}
 #show{
+  height: 3em;
+  width: 8em;
   margin: 4em;
   padding: .5em;
   font-size: 1.5em;
+  display: block;
   border: 6px solid black;
   background: transparent;
   font-weight: 800;
-  border-radius: 7px
+  border-radius: 7px;
+  display: none;
 }
 #show:hover{
   background-color: black;
   color: rgb(228, 149, 92);
-  text-shadow: 0 0 10px rgb(247, 101, 3);
+  text-shadow: 0 0 7px rgb(247, 19, 3);
 }
