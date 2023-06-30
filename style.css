@@ -8,7 +8,7 @@ body{
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    align-self: center
+    align-self: center;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fasthand&display=swap');
@@ -85,6 +85,7 @@ form {
    margin: 0 auto; */
 }
 .boxx{
+  border: 1px solid black;
   margin-bottom: 60px;
   width: 30%;
   height: 100%;
@@ -93,7 +94,7 @@ form {
   overflow: hidden;
 }
 .boxx img{
-  height: 100%;
+  height: 200px;
   width: 100%;
   object-fit: cover;
 }
