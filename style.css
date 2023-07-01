@@ -94,7 +94,7 @@ form {
   overflow: hidden;
 }
 .boxx img{
-  height: 200px;
+  height: 250px;
   width: 100%;
   object-fit: cover;
 }
@@ -129,4 +129,41 @@ form {
   background-color: black;
   color: rgb(228, 149, 92);
   text-shadow: 0 0 7px rgb(247, 19, 3);
+}
+
+@media (max-width: 799px){
+  #header{
+    margin: 0.5em;
+  }
+  form{
+    margin-bottom: 5em;
+  }
+  #m-container{
+    width: 90%;
+  }
+  .container{
+    margin: 1.5em;
+  }
+  .boxx img{
+    height: 180px;
+  }
+}
+
+@media (max-width: 370px){
+  #header{
+    margin: 0.3em;
+    font-size: 3em;
+  }
+  form{
+    margin-bottom: 3em;
+  }
+  #m-container{
+    width: 90%;
+  }
+  .container{
+    margin: 1em;
+  }
+  .boxx img{
+    height: 90px;
+  }
 }
